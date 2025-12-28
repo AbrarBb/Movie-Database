@@ -7,25 +7,25 @@ A comprehensive database application designed to manage and explore movies, arti
 This application serves as a central hub for movie enthusiasts to discover content, manage watchlists, and leave reviews. It features a robust backend schema that links movies to their respective metadata (genres, artists, directors) and streaming availability.
 
 ### Key Features
-* [cite_start]**Authentication System:** Custom authentication with distinct roles for Administrators and Users[cite: 137, 688].
-* **Content Management:** Full CRUD capabilities for Movies, Artists, Directors, and Genres.
+* **Authentication System:** Custom authentication with distinct roles for Administrators and Users.
+* **Content Management:** Full CRUD (Create, Read, Update, Delete) capabilities for Movies, Artists, Directors, and Genres.
 * **User Interaction:**
-    * [cite_start]**Watchlists:** Users can add movies to their personal watchlists[cite: 140].
-    * [cite_start]**Reviews & Ratings:** Users can rate movies and leave detailed comments[cite: 304].
-    * [cite_start]**Recommendations:** System to track and display movie recommendations[cite: 95].
+    * **Watchlists:** Users can add movies to their personal watchlists.
+    * **Reviews & Ratings:** Users can rate movies and leave detailed comments.
+    * **Recommendations:** System to track and display movie recommendations.
 * **Advanced Reporting:**
-    * [cite_start]**Watchlist Comparison:** Compare watchlists between different users[cite: 383].
-    * [cite_start]**Aggregated Data:** Reports for "Movies by Genre," "Top Rated," and "Most Active Users"[cite: 383].
-    * [cite_start]**Streaming Availability:** Links to platforms (Netflix, Hulu, etc.) where movies are available[cite: 486].
-* [cite_start]**Unique Functionality:** A unified view that aggregates complete movie descriptions by joining movie, artist, and director tables into a single interface[cite: 137].
+    * **Watchlist Comparison:** Compare watchlists between different users to find common interests.
+    * **Aggregated Data:** Reports for "Movies by Genre," "Top Rated," and "Most Active Users".
+    * **Streaming Availability:** Links to platforms (Netflix, Hulu, etc.) where movies are available.
+* **Unique Functionality:** A unified view that aggregates complete movie descriptions by joining the movie, artist, and director tables into a single interface.
 
 ## 🛠 Tech Stack & Implementation
-* [cite_start]**Platform:** Oracle APEX (Workspace: PROJECT302MRJ)[cite: 137].
+* **Platform:** Oracle APEX (Workspace: PROJECT302MRJ).
 * **Database:** SQL (Relational Schema).
-* [cite_start]**Automation:** Database triggers used to auto-fill Primary Keys (IDs) for seamless data entry[cite: 137].
+* **Automation:** Database triggers were used to auto-fill Primary Keys (IDs) for seamless data entry.
 
 ## 🗄️ Database Schema
-[cite_start]The project is built on a normalized Relational Schema including the following core entities[cite: 1, 68]:
+The project is built on a normalized Relational Schema including the following core entities:
 * **Users:** `AUTH`, `MY_USER`
 * **Content:** `MOVIE`, `ARTIST`, `DIRECTOR`, `GENRE`
 * **Relationships:** `MOVIE_ARTISTS`, `MOVIE_DIRECTORS`, `MOVIE_STREAMING`
@@ -36,12 +36,12 @@ This application serves as a central hub for movie enthusiasts to discover conte
 **Workspace Details:**
 | Setting | Value |
 | :--- | :--- |
-| **Workspace Name** | [cite_start]`PROJECT302MRJ` [cite: 137] |
-| **Workspace Email** | [cite_start]`AXLOLIGHT@GMAIL.COM` [cite: 137] |
-| **Project ID** | [cite_start]`11` [cite: 137] |
+| **Workspace Name** | `PROJECT302MRJ` |
+| **Workspace Email** | `AXLOLIGHT@GMAIL.COM` |
+| **Project ID** | `11` |
 
 **User Login Credentials:**
-The system supports multiple user roles. [cite_start]Use the following credentials to test the application[cite: 137, 688]:
+The system supports multiple user roles. Use the following credentials to test the application:
 
 | Role | Username | Password | Notes |
 | :--- | :--- | :--- | :--- |
@@ -51,11 +51,12 @@ The system supports multiple user roles. [cite_start]Use the following credentia
 | **User** | `BobBuilder`| `builderpass`| Standard user access |
 
 ## 📊 Reports & Analytics
-[cite_start]The application includes 16 reports based on aggregate queries, including[cite: 383]:
+The application includes 16 reports based on aggregate queries, including:
 1.  **Movies With Highest Reviews:** Aggregates review scores to rank content.
 2.  **Genre Analysis:** Shows total movies and average rating per genre.
 3.  **Popular Actors:** Identifies trending artists.
 4.  **Latest Movies:** Displays the most recently released or added content.
+5.  **Most Active User:** Calculates activity based on added movies and reviews.
 
 ## 📝 Conclusion
 This project demonstrates the practical application of database concepts, including Entity-Relationship modeling, schema normalization, and complex SQL querying within a web-based interface.
