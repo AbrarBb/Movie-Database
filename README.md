@@ -36,7 +36,7 @@ The project is built on a normalized Relational Schema including the following c
 **Workspace Details:**
 | Setting | Value |
 | :--- | :--- |
-| **Workspace Name** | `PROJECT302MRJ` |
+| **Workspace Name** | `PROJECT302MR` |
 | **Workspace Email** | `AXLOLIGHT@GMAIL.COM` |
 | **Project ID** | `11` |
 
@@ -45,7 +45,7 @@ The system supports multiple user roles. Use the following credentials to test t
 
 | Role | Username | Password | Notes |
 | :--- | :--- | :--- | :--- |
-| **Admin** | `admin` | `1234` | Full access to all forms and reports |
+| **Admin** | `admin` | `****` | Full access to all forms and reports |
 | **User** | `jane` | `1234` | Standard user access |
 | **User** | `lajim` | `1234` | Standard user access |
 | **User** | `BobBuilder`| `builderpass`| Standard user access |
